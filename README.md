@@ -2,7 +2,6 @@
 ![Login](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/Login.png)
 ![DialPad](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/DialPad.png)
 ![Calling](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/Calling.png)
-![EndPoint](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/EndPoint)
 
 ## Get started with Voice on iOS:
 1) [Quickstart](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#1quickstart) - Run the quickstart apps
@@ -26,6 +25,7 @@ Note: You may need to update the [CocoaPods Master](https://github.com/CocoaPod
 #### Create Endpoints
 [Signup](https://console.plivo.com/accounts/register/) and [create endpoints](https://manage.plivo.com/accounts/login/) with Plivo. 
 Each Endpoint is associated with a Username and password, which is used to authenticate. 
+![EndPoint](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/EndPoint)
 
 #### Run the app
 Clone or download the repo.
