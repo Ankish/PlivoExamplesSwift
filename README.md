@@ -25,7 +25,7 @@ Note: You may need to update the [CocoaPods Master](https://github.com/CocoaPod
 #### Create Endpoints
 [Signup](https://console.plivo.com/accounts/register/) and [create endpoints](https://manage.plivo.com/accounts/login/) with Plivo. 
 Each Endpoint is associated with a Username and password, which is used to authenticate. 
-![EndPoint](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/EndPoint)
+![EndPoint](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/EndPoint.png)
 
 #### Run the app
 Clone or download the repo.
