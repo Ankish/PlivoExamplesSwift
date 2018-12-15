@@ -1,4 +1,8 @@
 # Plivo Voice Swift Quickstart for iOS
+![Login](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/Login.png)
+![DialPad](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/DialPad.png)
+![Calling](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/Calling.png)
+![EndPoint](https://github.com/Ankish/PlivoExamplesSwift/blob/feature/OutgoingCallEg/Images/EndPoint)
 
 ## Get started with Voice on iOS:
 1) [Quickstart](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#1quickstart) - Run the quickstart apps
