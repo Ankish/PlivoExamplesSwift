@@ -1,19 +1,19 @@
 # Plivo Voice Swift Quickstart for iOS
 ![Login](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Login.png)
 ![DialPad](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/DialPad.png)
-![Calling](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutgoingCallEg/Images/Calling.png)
+![Calling](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Calling.png)
 
 ## Get started with Voice on iOS:
-1) [Quickstart](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#1quickstart) - Run the quickstart apps
-2) [Integrating into your app](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#2-examples-and-integration-into-your-existing-apps) Details of simple integration of various call features into your existing apps
-3) [More Documentation](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#3-more-documentation) - More documentation related to the Voice iOS SDK
-4) [Issues and Support](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#4-issues-and-support) - Filing issues and general support
+1) [Quickstart](https://github.com/Ankish/PlivoExamplesSwift#1-quickstart) - Run the quickstart apps
+2) [Integrating into your app](https://github.com/Ankish/PlivoExamplesSwift#2-examples-and-integration-into-your-existing-apps) Details of simple integration of various call features into your existing apps
+3) [More Documentation](https://github.com/Ankish/PlivoExamplesSwift#3-more-documentation) - More documentation related to the Voice iOS SDK
+4) [Issues and Support](https://github.com/Ankish/PlivoExamplesSwift#4-issues-and-support) - Filing issues and general support
 
 ### 1) Quickstart
-* [Installation](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#install-the-plivovoicekit-framework-using-cocoapods) - Install the PlivoVoiceKit framework using Cocoapods
-* [CreateEndpoints](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#create-endpoints) - Create User Endpoints in Plivo
-* [Run the App](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#run-the-app) - Run the app in Xcode and make calls
-* [VoIP Service Certificate](https://gist.github.com/Ankish/ccd5ce325c282baad0295aa9051e52d3#run-the-app) - Configuring VoIP Service Certificate and push credentials.
+* [Installation](https://github.com/Ankish/PlivoExamplesSwift#install-the-plivovoicekit-framework-using-cocoapods) - Install the PlivoVoiceKit framework using Cocoapods
+* [CreateEndpoints](https://github.com/Ankish/PlivoExamplesSwift#create-endpoints) - Create User Endpoints in Plivo
+* [Run the App](https://github.com/Ankish/PlivoExamplesSwift#run-the-app) - Run the app in Xcode and make calls
+* [VoIP Service Certificate](https://github.com/Ankish/PlivoExamplesSwift#run-the-app) - Configuring VoIP Service Certificate and push credentials.
 
 #### Install the PlivoVoiceKit framework using Cocoapods
 It's easy to install the Voice framework if you manage your dependencies using Cocoapods. Simply add the following to your Podfile:
@@ -51,7 +51,7 @@ Copy the `Util` folder for quick integration integration.
 [PlivoManger.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutGoingCall/OutGoingCall/Util/PlivoManager.swift)  file in your project. PlivoManager manages the login, calling to a sip URI/phone number and all other call related actions.
 
 #### Integrating login
-Conform to PlivoEndpointDelegate to your Login Controller which receives call backs for login and calls related features. Check [LoginViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutgoingCallEg/OutGoingCall/OutGoingCall/View%20Controllers/LoginViewController.swift) and SplashViewController.swift for more details. Note: You will need to authenticate every app startup session with the login call inorder to instantiate the framework to make and receive calls.
+Conform to PlivoEndpointDelegate to your Login Controller which receives call backs for login and calls related features. Check [LoginViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutGoingCall/OutGoingCall/View%20Controllers/LoginViewController.swift) and SplashViewController.swift for more details. Note: You will need to authenticate every app startup session with the login call inorder to instantiate the framework to make and receive calls.
 
 Set your delegate conformance to Plivo SDK by calling the setDelegate() method.
 
