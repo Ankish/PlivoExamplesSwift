@@ -18,12 +18,9 @@
 		645D420821BA336A0034E745 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 645D420721BA336A0034E745 /* Assets.xcassets */; };
 		645D420B21BA336A0034E745 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645D420921BA336A0034E745 /* LaunchScreen.storyboard */; };
 		645D421721BA35C60034E745 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D421621BA35C60034E745 /* LoginViewController.swift */; };
-		645D421C21BA37930034E745 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D421B21BA37930034E745 /* UIColor+Extensions.swift */; };
 		645D421E21BA38010034E745 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D421D21BA38010034E745 /* UIViewController+Extension.swift */; };
 		645D422121BA385A0034E745 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D422021BA385A0034E745 /* UserDefaultManager.swift */; };
-		645D422321BA39AD0034E745 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D422221BA39AD0034E745 /* UITableView+Extension.swift */; };
 		645D422521BA41AA0034E745 /* PlivoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D422421BA41AA0034E745 /* PlivoManager.swift */; };
-		645D422721BA4A950034E745 /* LoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 645D422621BA4A950034E745 /* LoaderManager.swift */; };
 		645D423121BA58AF0034E745 /* JCPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 645D422B21BA58AE0034E745 /* JCPadButton.m */; };
 		645D423221BA58AF0034E745 /* UIView+FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 645D422E21BA58AF0034E745 /* UIView+FrameAccessor.m */; };
 		645D423321BA58AF0034E745 /* JCDialPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 645D423021BA58AF0034E745 /* JCDialPad.m */; };
@@ -57,12 +54,9 @@
 		645D420A21BA336A0034E745 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		645D420C21BA336A0034E745 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		645D421621BA35C60034E745 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		645D421B21BA37930034E745 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		645D421D21BA38010034E745 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		645D422021BA385A0034E745 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
-		645D422221BA39AD0034E745 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		645D422421BA41AA0034E745 /* PlivoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlivoManager.swift; sourceTree = "<group>"; };
-		645D422621BA4A950034E745 /* LoaderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderManager.swift; sourceTree = "<group>"; };
 		645D422A21BA58AE0034E745 /* UIView+FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameAccessor.h"; sourceTree = "<group>"; };
 		645D422B21BA58AE0034E745 /* JCPadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPadButton.m; sourceTree = "<group>"; };
 		645D422C21BA58AE0034E745 /* JCDialPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDialPad.h; sourceTree = "<group>"; };
@@ -120,8 +114,7 @@
 			children = (
 				645D422821BA58930034E745 /* External */,
 				645D421F21BA384F0034E745 /* Util */,
-				645D421821BA374F0034E745 /* Extensions */,
-				645D421521BA34B50034E745 /* View */,
+				645D421521BA34B50034E745 /* Storyboards */,
 				645D421421BA34AB0034E745 /* View Controllers */,
 				645D421321BA34A70034E745 /* Assets */,
 				645D421221BA349E0034E745 /* Supporting Files */,
@@ -157,22 +150,20 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		645D421521BA34B50034E745 /* View */ = {
+		645D421521BA34B50034E745 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				645D420421BA33660034E745 /* Main.storyboard */,
 				645D420921BA336A0034E745 /* LaunchScreen.storyboard */,
 				64128D8721BB947200548DC4 /* Plivo.storyboard */,
 			);
-			path = View;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		645D421821BA374F0034E745 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				645D421B21BA37930034E745 /* UIColor+Extensions.swift */,
 				645D421D21BA38010034E745 /* UIViewController+Extension.swift */,
-				645D422221BA39AD0034E745 /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -180,9 +171,9 @@
 		645D421F21BA384F0034E745 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				645D421821BA374F0034E745 /* Extensions */,
 				645D422021BA385A0034E745 /* UserDefaultManager.swift */,
 				645D422421BA41AA0034E745 /* PlivoManager.swift */,
-				645D422621BA4A950034E745 /* LoaderManager.swift */,
 				64128D8021BB917F00548DC4 /* Logger.swift */,
 				64128D8A21BBAF3F00548DC4 /* AppUtility.swift */,
 			);
@@ -350,15 +341,12 @@
 				645D423321BA58AF0034E745 /* JCDialPad.m in Sources */,
 				64128D8121BB917F00548DC4 /* Logger.swift in Sources */,
 				645D422521BA41AA0034E745 /* PlivoManager.swift in Sources */,
-				645D421C21BA37930034E745 /* UIColor+Extensions.swift in Sources */,
 				645D423121BA58AF0034E745 /* JCPadButton.m in Sources */,
 				645D422121BA385A0034E745 /* UserDefaultManager.swift in Sources */,
 				645D423221BA58AF0034E745 /* UIView+FrameAccessor.m in Sources */,
-				645D422721BA4A950034E745 /* LoaderManager.swift in Sources */,
 				645D420321BA33660034E745 /* DialPadViewController.swift in Sources */,
 				645D420121BA33660034E745 /* AppDelegate.swift in Sources */,
 				64128D7A21BA6E4800548DC4 /* CallViewController.swift in Sources */,
-				645D422321BA39AD0034E745 /* UITableView+Extension.swift in Sources */,
 				64A956CC21C28B7C007ABB58 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

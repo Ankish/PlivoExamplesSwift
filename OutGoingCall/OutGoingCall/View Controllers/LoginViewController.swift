@@ -30,6 +30,9 @@ class LoginViewController: UITableViewController {
     @IBOutlet private weak var userNameField: UITextField!
     @IBOutlet private weak var passwordField: UITextField!
 
+    private let activityIndicator = UIActivityIndicatorView()
+    private let plivoColor = UIColor.init(red: 0.1686, green: 0.6901, blue: 0.1921, alpha: 1)
+    
     // MARK: - Life cycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,20 +42,11 @@ class LoginViewController: UITableViewController {
         setUp()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        AppUtility.lockOrientation(.all)
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-    }
-    
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        
+
+        activityIndicator.center = self.view.center
+
         self.signInButton?.layer.cornerRadius = (self.signInButton?.frame.height ?? 0) / 2
     }
     
@@ -86,25 +80,31 @@ class LoginViewController: UITableViewController {
         self.passwordField.text = ""
         
         self.appTitleLabel.text = NSLocalizedString("Plivo", comment: "")
+       
+        activityIndicator.color = UIColor.black
+        self.view.addSubview(activityIndicator)
         
-        self.tableView.backgroundColor = UIColor.appThemeColor
+        self.tableView.backgroundColor = UIColor.white
         self.tableView.contentInset = UIEdgeInsets(top: 50, left: 0, bottom: 0, right: 0)
         
     }
     
     private func disableLogin() {
-        self.signInButton.backgroundColor = UIColor.init(hexString: "#27AE60").withAlphaComponent(0.6)
+        self.signInButton.backgroundColor = plivoColor.withAlphaComponent(0.6)
         self.signInButton.isEnabled = false
     }
     
     private func enableLogin() {
-        self.signInButton.backgroundColor = UIColor.init(hexString: "#27AE60")
+        self.signInButton.backgroundColor = plivoColor
         self.signInButton.isEnabled = true
     }
     
     private func doLogin(userName : String,password : String) {
         self.disableLogin()
-        ActivityIndicatorManager.shared.showActivityIndicator(uiView: UIApplication.shared.keyWindow ?? self.view)
+        
+        self.activityIndicator.startAnimating()
+        self.activityIndicator.isHidden = false
+        
         PlivoManager.sharedInstance.login(withUserName: userName, andPassword: password)
     }
     
@@ -116,7 +116,7 @@ class LoginViewController: UITableViewController {
     
     @IBAction func signInButtonAction(_ sender: Any) {
         if let name = self.userNameField.text,!name.isEmpty,let password = self.passwordField.text,!password.isEmpty {
-            self.doLogin(userName : name,password : password)
+            self.doLogin(userName : AppUtility.getUserNameWithoutDomain(name),password : password)
         } else {
             self.showAlert(title : NSLocalizedString("Error!", comment: ""),message : NSLocalizedString("Username and Password can't be empty.", comment: ""))
         }
@@ -124,9 +124,9 @@ class LoginViewController: UITableViewController {
     
     @objc
     private func keyboardWillAppear(_ note: Notification) {
-        if self.userNameField.isFirstResponder,let indexPath = self.tableView.indexPath(forView: self.userNameField) {
+        if self.userNameField.isFirstResponder,let indexPath = self.indexPath(forView: self.userNameField) {
             self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
-        } else if self.passwordField.isFirstResponder,let indexPath = self.tableView.indexPath(forView: self.passwordField) {
+        } else if self.passwordField.isFirstResponder,let indexPath = self.indexPath(forView: self.passwordField) {
             self.tableView.scrollToRow(at: indexPath, at: .bottom, animated: true)
         }
     }
@@ -134,6 +134,14 @@ class LoginViewController: UITableViewController {
     @objc
     private func keyboardWillHideNotification(_ note: Notification) {
         
+    }
+    
+    /**
+     * returns the indexpath of the cell in which the view presented.
+     */
+    func indexPath(forView: UIView) -> IndexPath? {
+        let viewCenterRelativeToTableview = self.tableView.convert(CGPoint.init(x: forView.bounds.midX, y: forView.bounds.midY), from: forView)
+        return self.tableView.indexPathForRow(at: viewCenterRelativeToTableview)
     }
 }
 // MARK: - UITextFieldDelegate
@@ -158,8 +166,11 @@ extension LoginViewController : PlivoEndpointDelegate  {
                 return
             }
             strongSelf.enableLogin()
-            ActivityIndicatorManager.shared.hideActivityIndicator()
-            UserDefaultManager.shared.set(value: strongSelf.userNameField.text ?? "", forKey: .username)
+            
+            strongSelf.activityIndicator.stopAnimating()
+            strongSelf.activityIndicator.isHidden = true
+            
+            UserDefaultManager.shared.set(value: AppUtility.getUserNameWithoutDomain(strongSelf.userNameField.text ?? ""), forKey: .username)
             UserDefaultManager.shared.set(value: strongSelf.passwordField.text ?? "", forKey: .password)
             
             let dialPadController = DialPadViewController.storyBoardController()
@@ -180,7 +191,8 @@ extension LoginViewController : PlivoEndpointDelegate  {
             }
             
             strongSelf.enableLogin()
-            ActivityIndicatorManager.shared.hideActivityIndicator()
+            strongSelf.activityIndicator.stopAnimating()
+            strongSelf.activityIndicator.isHidden = true
             
             strongSelf.showAlert(title: NSLocalizedString("Login Failed", comment: ""), message: NSLocalizedString("Please check your username and password", comment: ""))
         }

@@ -36,6 +36,9 @@ class CallViewController: UIViewController {
         return vc
     }
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     // MARK: - Outlet variables
     @IBOutlet private weak var speakerButton: UIButton!
     @IBOutlet private weak var muteButton: UIButton!
@@ -96,13 +99,6 @@ class CallViewController: UIViewController {
         
         dialPad.layoutIfNeeded()
         dialPad.setNeedsLayout()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        AppUtility.lockOrientation(.portrait)
-        
     }
     
     deinit {
