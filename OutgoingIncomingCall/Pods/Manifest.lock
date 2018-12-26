@@ -1,0 +1,20 @@
+PODS:
+  - libPhoneNumber-iOS (0.9.3)
+  - PlivoVoiceKit (2.0.2)
+
+DEPENDENCIES:
+  - libPhoneNumber-iOS (= 0.9.3)
+  - PlivoVoiceKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - libPhoneNumber-iOS
+    - PlivoVoiceKit
+
+SPEC CHECKSUMS:
+  libPhoneNumber-iOS: 3e8e9fffe9fb4b14a4a6105f8615176ccb3aa2a5
+  PlivoVoiceKit: 3c33466fcc8853f0c99c787059328b4b50a89e48
+
+PODFILE CHECKSUM: 7b2fdd6329d4f577be31bd770327afdf40ac22fa
+
+COCOAPODS: 1.5.3
