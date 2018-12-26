@@ -70,7 +70,7 @@ Once Plivo authenticates, you will receive a call back via OnLogin()/OnLoginFail
 #### Integrating only outgoing calls
 For integrating only outgoing calls refer to the project in the folder [OutGoingCall](https://github.com/Ankish/PlivoExamplesSwift/tree/master/OutGoingCall)
 Drag and Drop 
-1) [DialPadViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutGoingCall/OutGoingCall/View%20Controllers/Plivo%20Controller/DialPadViewController.swiftr), if you intend to use the provided Dialpad UI in your app for user to enter a SIP URI/Phone number.
+1) [DialPadViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutGoingCall/OutGoingCall/View%20Controllers/Plivo%20Controller/DialPadViewController.swift), if you intend to use the provided Dialpad UI in your app for user to enter a SIP URI/Phone number.
      There is already an integration of DialPad with libPhoneNumber_iOS to format the phone numbers with the country code, you can as well remove or implement your own formatting.
 ```
    pod 'libPhoneNumber-iOS', '0.9.3'
