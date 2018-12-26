@@ -15,11 +15,19 @@ import Foundation
  *
  */
 struct AppUtility {
-    
-    static func lockOrientation(_ orientation: UIInterfaceOrientationMask) {
-        if let delegate = UIApplication.shared.delegate as? AppDelegate {
-            delegate.orientationLock = orientation
+
+    /*
+     * remove any sip type/domain related
+     * information from username
+     */
+    static func getUserNameWithoutDomain(_ userName : String) -> String {
+        var userNameArray = userName.components(separatedBy: "@")
+        if (userNameArray.count > 0) {
+            let modifiedName = userNameArray[0]
+            Logger.logDebug(tag: "AppUtility", message: "found @ in username modified username \(modifiedName)")
+            return modifiedName
+        } else {
+            return userName
         }
     }
-
 }

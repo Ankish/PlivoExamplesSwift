@@ -24,7 +24,9 @@ class DialPadViewController: UIViewController {
         
         return vc
     }
-    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return .portrait
+    }
     // MARK: - Outlet variables
     @IBOutlet private weak var callButton: UIButton!
     @IBOutlet private weak var dialPadContainerView: JCDialPad!
@@ -48,13 +50,6 @@ class DialPadViewController: UIViewController {
         dialPadContainerView.layoutIfNeeded()
         dialPadContainerView.setNeedsLayout()
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        AppUtility.lockOrientation(.portrait)
-    }
-    
     
     // MARK: - Private methods
     private func setUp() {
@@ -130,7 +125,7 @@ class DialPadViewController: UIViewController {
         
         if let number = number {
             reset()
-            let callController = CallViewController.storyBoardControllerForOutGoing(callerId: number)
+            let callController = CallViewController.storyBoardControllerForOutGoing(callerId: AppUtility.getUserNameWithoutDomain(number))
             self.present(callController, animated: true, completion: nil)
         } else {
             self.showAlert(title: NSLocalizedString("Invalid Number", comment: ""), message: NSLocalizedString("Please enter a valid phone number", comment: ""))

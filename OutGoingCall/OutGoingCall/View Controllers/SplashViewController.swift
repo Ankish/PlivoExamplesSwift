@@ -11,22 +11,34 @@ import PlivoVoiceKit
 
 class SplashViewController: UIViewController {
 
+    private let activityIndicator = UIActivityIndicatorView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         PlivoManager.sharedInstance.setDelegate(self)
+        
+        activityIndicator.color = UIColor.black
+        self.view.addSubview(activityIndicator)
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
         if let username = UserDefaultManager.shared.value(forKey: .username) as? String,!username.isEmpty,let password = UserDefaultManager.shared.value(forKey: .password) as? String,!password.isEmpty {
-            ActivityIndicatorManager.shared.showActivityIndicator(uiView: UIApplication.shared.keyWindow ?? self.view)
+            self.activityIndicator.startAnimating()
+            self.activityIndicator.isHidden = false
             PlivoManager.sharedInstance.login(withUserName: username, andPassword: password)
         } else {
             openLoginController()
         }
         
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        activityIndicator.center = self.view.center
     }
     
     private func openLoginController() {
@@ -50,7 +62,8 @@ extension SplashViewController : PlivoEndpointDelegate  {
                 return
             }
             
-            ActivityIndicatorManager.shared.hideActivityIndicator()
+            strongSelf.activityIndicator.stopAnimating()
+            strongSelf.activityIndicator.isHidden = true
             
             let dialPadController = DialPadViewController.storyBoardController()
             strongSelf.present(dialPadController, animated: true, completion: nil)
@@ -69,7 +82,9 @@ extension SplashViewController : PlivoEndpointDelegate  {
                 return
             }
             
-            ActivityIndicatorManager.shared.hideActivityIndicator()
+            strongSelf.activityIndicator.stopAnimating()
+            strongSelf.activityIndicator.isHidden = true
+            
             UserDefaultManager.shared.set(value: "", forKey: .username)
             UserDefaultManager.shared.set(value: "", forKey: .password)
             
