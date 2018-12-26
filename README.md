@@ -68,9 +68,9 @@ PlivoManager.sharedInstance.login(withUserName: userName, andPassword: password)
 Once Plivo authenticates, you will receive a call back via OnLogin()/OnLoginFailed(). After successful login you are ready to present the dialpad and make calls.
 
 #### Integrating only outgoing calls
-For integrating only outgoing calls refer to the project in the folder [OutGoingCall](https://github.com/Ankish/PlivoExamplesSwift/OutGoingCall)
+For integrating only outgoing calls refer to the project in the folder [OutGoingCall](https://github.com/Ankish/PlivoExamplesSwift/tree/master/OutGoingCall)
 Drag and Drop 
-1) [DialPadViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/OutGoingCall/OutGoingCall/View%20Controllers/Plivo%20Controller), if you intend to use the provided Dialpad UI in your app for user to enter a SIP URI/Phone number.
+1) [DialPadViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutGoingCall/OutGoingCall/View%20Controllers/Plivo%20Controller/DialPadViewController.swiftr), if you intend to use the provided Dialpad UI in your app for user to enter a SIP URI/Phone number.
      There is already an integration of DialPad with libPhoneNumber_iOS to format the phone numbers with the country code, you can as well remove or implement your own formatting.
 ```
    pod 'libPhoneNumber-iOS', '0.9.3'
@@ -84,18 +84,18 @@ Add these to your <ProjectName>-Bridging-Header.h
 ```
 More about [Bridging header](https://developer.apple.com/documentation/swift/imported_c_and_objective-c_apis/importing_objective-c_into_swift)
 
-2) [CallViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/OutGoingCall/OutGoingCall/View%20Controllers/Plivo%20Controller) - This manages the complete calling functionality with conformance to PlivoEndpointDelegate. Initialize the controller with a number or sip endpoint and present to initiate the call.
+2) [CallViewController.swift](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutGoingCall/OutGoingCall/View%20Controllers/Plivo%20Controller/CallViewController.swift) - This manages the complete calling functionality with conformance to PlivoEndpointDelegate. Initialize the controller with a number or sip endpoint and present to initiate the call.
 
 ```
 let callController = CallViewController.storyBoardControllerForOutGoing(callerId: number)
 self.present(callController, animated: true, completion: nil)
 ```
 
-3) [Plivo.storyboard](https://github.com/Ankish/PlivoExamplesSwift/OutGoingCall/OutGoingCall/Storyboards)- Contains the necessary iOS Storyboard Interface for dialpad and calling features.
+3) [Plivo.storyboard](https://github.com/Ankish/PlivoExamplesSwift/tree/master/OutGoingCall/OutGoingCall/Storyboards)- Contains the necessary iOS Storyboard Interface for dialpad and calling features.
    Also  copy the `Assets.xcassets`, this has all calling related assets and icons used.
 
 #### Integrating outgoing and incoming calls
-For integrating outgoing and incoming calls refer to the project in the folder [OutgoingIncomingCall](https://github.com/Ankish/PlivoExamplesSwift/OutgoingIncomingCall) and follow the [Integrating only outgoing calls](https://github.com/Ankish/PlivoExamplesSwift/#integrating-only-outgoing-calls) above.
+For integrating outgoing and incoming calls refer to the project in the folder [OutgoingIncomingCall](https://github.com/Ankish/PlivoExamplesSwift/tree/master/OutgoingIncomingCall) and follow the [Integrating only outgoing calls](https://github.com/Ankish/PlivoExamplesSwift/#integrating-only-outgoing-calls) above.
 
 Project configuration for Incoming calls on background modes:
 In Project's Target Capabilities Section:
