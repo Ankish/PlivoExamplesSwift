@@ -2,8 +2,8 @@
 ![Login](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Login.png)
 ![DialPad](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/DialPad.png)
 ![Calling](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Calling.png)
-![Contacts](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Tab_Contacts.png)
-![Recents](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Tab_Recents.png)
+![Contacts](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Tab_Contacts.jpg)
+![Recents](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Tab_Recents.jpg)
 
 
 ## Get started with Voice on iOS:
