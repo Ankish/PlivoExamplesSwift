@@ -1,0 +1,26 @@
+PODS:
+  - APAddressBook/Core (0.3.2)
+  - APAddressBook/Swift (0.3.2):
+    - APAddressBook/Core
+  - libPhoneNumber-iOS (0.9.3)
+  - PlivoVoiceKit (2.0.2)
+
+DEPENDENCIES:
+  - APAddressBook/Swift
+  - libPhoneNumber-iOS (= 0.9.3)
+  - PlivoVoiceKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - APAddressBook
+    - libPhoneNumber-iOS
+    - PlivoVoiceKit
+
+SPEC CHECKSUMS:
+  APAddressBook: e68ecaf95f2c323b625ae585a0d25fe505291286
+  libPhoneNumber-iOS: 3e8e9fffe9fb4b14a4a6105f8615176ccb3aa2a5
+  PlivoVoiceKit: 3c33466fcc8853f0c99c787059328b4b50a89e48
+
+PODFILE CHECKSUM: d92b824000321d0ba64a8f79cf66287a59a85b2e
+
+COCOAPODS: 1.5.3

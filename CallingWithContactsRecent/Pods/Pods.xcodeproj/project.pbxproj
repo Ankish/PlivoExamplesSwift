@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087D9C4E11D3DB362C28C0530367A7C4 /* APAddressBookAccessRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 730E0A51B6FA45935572B36CA15C6236 /* APAddressBookAccessRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094E8A01CE853FEDC38E39D45A47F7E1 /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = D78D6003F50537916BB2CFCF0D862FB2 /* APContact.m */; };
+		0A528BB1709CEE02424B9DDD1D497130 /* APRelatedPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A1BD8E9CA1282434D9CB7DBA2E7C48 /* APRelatedPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10D207842BFA08F92297B4697B3CBB87 /* APContactBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 964FB2862F4250ED188B4391BCF6EFA0 /* APContactBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120ED896191B390A54FCD68EA359F9BC /* APContactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF171F8D64C2BC333FE38FD5A10E638 /* APContactBuilder.m */; };
+		1733324DC2E7A38C6271D4EB925584DB /* APContactDataExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AB6D2588D0BE9969A8E57DE76F18CF /* APContactDataExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17F43BD263095E16EF936F95F01ACF88 /* NBPhoneNumberDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D79925A2DA3020D4319A51C64A357C /* NBPhoneNumberDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17FBF5B604C3FA05E8B15573E57B304C /* APThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AC7559C8BBF2501BFD407909DA23FA /* APThread.m */; };
+		1A5923D2A0E6E44A129E617FD3E75732 /* NBMetadataCoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 16EBE063C287CCC958A01C9F04155760 /* NBMetadataCoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AAFA4DAB869CAA3290B347250B5FE5C /* APSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = B38E717F644FC6FDDAC62CD05520B7BD /* APSocialProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB57CF1180A260A69C6FFE7878335D5 /* NBPhoneNumberDesc.m in Sources */ = {isa = PBXBuildFile; fileRef = A44B576D297689EE404369AFC6C9817B /* NBPhoneNumberDesc.m */; };
+		22B95914E4653FA0235C0E2F09FF9F07 /* APImageExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CF67FB188504654A0B324CEE3A37985 /* APImageExtractor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2723332B5C586BAFFAB7E4B2802788B5 /* NBNumberFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 346441BB5CA604DD594DADC8152E4E85 /* NBNumberFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EDE0F18E67E8D74C91CF754505E9BD4 /* APThread.h in Headers */ = {isa = PBXBuildFile; fileRef = F3397A8D5285D36B19EC06D43001D1DB /* APThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32D6D109FEEE316E51F648C535A7D2D0 /* APAddressBookExternalChangeRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0122B26ED1F49CBD25E79723D4E75823 /* APAddressBookExternalChangeRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33411E8B2A6D3173878F679FE0898B7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C6C514259285820663556A42DFBC4 /* Foundation.framework */; };
+		3647EFF58D20B3722D418335CB34069D /* APAddressBookRefWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17129F93EA7EBD6EC2F16B83451BE712 /* APAddressBookRefWrapper.m */; };
+		36A8ED1D447D64D18A71691491302B51 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = B61ABD997582BD6560B36F5CE9EC3881 /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36EC9A62E8FF4548AB7E99403B660D38 /* NBMetadataCoreMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 55343726A8B59300C10DE7593D8102FE /* NBMetadataCoreMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		373B813A939F5F4D8F9B10C96B283313 /* APAddressBookFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B813119E6CD838AF4A559D90B7601D /* APAddressBookFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7D75FACAC08097B245393B0ACBABEA /* APContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 727E213B338FCBBB42A0BBAD6D4EC639 /* APContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E8A772C4214DA4A05098346164B5491 /* APAddressBookContactsRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 0461F5AB0A342FF17A9C21723F9479B6 /* APAddressBookContactsRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F46C74CCB7D535F6ECB98193A925112 /* NBMetadataCoreTestMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 82A7D3C2AF9907468E1E4D9BCC40DCAB /* NBMetadataCoreTestMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42398F495D04FF8B1EC3C5EF07082030 /* Pods-OutgoingIncomingCall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F12A7D2C62E52319DB092B175F4EB041 /* Pods-OutgoingIncomingCall-dummy.m */; };
+		4511A07E67E2B53240754C0EBCF4558A /* APRecordDate.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9AA34F460E91502FD8B90EB3CCC1D /* APRecordDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD580F6F264FAA7A87EA87E3889C689 /* APAddressBookExternalChangeRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A769A93FD25A289282390EAC7B580B /* APAddressBookExternalChangeRoutine.m */; };
+		4B36709D8D76E08C6AC977FD7C6CEF8E /* NBPhoneNumberUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F4C6040ED000F6D0A0C6615F6925D6 /* NBPhoneNumberUtil.m */; };
+		4CDB1D5540C2870BC406C48A584060C5 /* APContactListBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE7D3BE2993FDFEE557878C854A7B83 /* APContactListBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D497A52238131C2A11F1FCF4ABEE889 /* APContactDataExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBE45DD3D1DF6BD61245DCD45E874E8 /* APContactDataExtractor.m */; };
+		4F421D57E75C3332EE0887A399F43327 /* APName.m in Sources */ = {isa = PBXBuildFile; fileRef = FF036E720289DF38D9BA73BF4910A714 /* APName.m */; };
+		519AB05108425A77DF1EB83C73E70D98 /* NBMetadataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CBB758822B446B87E258E9F92A1A38 /* NBMetadataHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B6EE2680EC1142A15A26F2FF5A1929 /* APSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB5F8C86F176E429E83CF24A0FD4FC5 /* APSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5821D73FB91EE5856D78230364A77264 /* NBPhoneNumberUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DE38401AB86FC4E2C28F98C7C6DE9D /* NBPhoneNumberUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B6F9E1521DFC43EA0E6864326F4C78D /* APAddressBook-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC903638C6C071FB8F093C18C75AE9E /* APAddressBook-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C8745A75EEA6FA059849F69B9D8B7A8 /* NBMetadataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 95955EDB8211EED60F5FE80132E935A1 /* NBMetadataCore.m */; };
+		5D28EB4B85948B26BFED31E3D5BE1473 /* libPhoneNumber-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD64751BF8E657723A1423F8A3366D17 /* libPhoneNumber-iOS-dummy.m */; };
+		65ABAB79769F5304D51D7A60BB9B0E4A /* APContactDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A3B78DE31C1239F8BF09BE54B8A89D /* APContactDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B724501CE32241A88B298086EA53046 /* NBMetadataCoreMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF91843EDECDA83A97AB80D9BE2154FC /* NBMetadataCoreMapper.m */; };
+		6C10457689CF964F2BFC1D35849AB431 /* APEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 202EDEA912FEE88920286C3842F15483 /* APEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C8D7A4BF919DEC2DFDC9E4CD93E13C2 /* APJob.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F47AB5E05AC8E92C4946367C25C9DAF /* APJob.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71D0304274146040D5CD92F33A6A0337 /* APJob.m in Sources */ = {isa = PBXBuildFile; fileRef = F928962FA6043CA8DDB08CF002C2CF30 /* APJob.m */; };
+		7496D017124C18D3D522601F7770D8A7 /* APSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE90B81791BA438D62EFCAAD2520110 /* APSource.m */; };
+		75548F0266CF0DF5CEFADF08406EDFAA /* APRecordDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07907F8ECB583FA420DAA0EA948E5DD6 /* APRecordDate.m */; };
+		757DAB4F19B1540CC902016FD8F19DCE /* NBPhoneMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A948D5CC235625DB04C6F7B087FF18 /* NBPhoneMetaData.m */; };
+		80EF33ADF73B4C70B80BFF09FD96C75D /* APAddressBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF6CC6A24CCCD8647C129EAD724A197 /* APAddressBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8781A068364D96D003F5EC4DFAA487FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C6C514259285820663556A42DFBC4 /* Foundation.framework */; };
+		884D140221FD8C99EF75BE6A165ED67B /* APName.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBB7F3BB3AD3FA66A902E20F3A361DA /* APName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0C46A3019175387B5E3E9A11078712 /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D04FDDB17B320DE25F68D87E3081E9 /* APTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EFFBBC8EBB2B5DBB34FFDDDAEABFD1A /* APAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C919514FC24616CA4081CCDFB39C79 /* APAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901088DFE25AEE40A0BCDD3A7EE651B7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53743EDB2D82460D28722ED31467E99C /* CoreTelephony.framework */; };
+		91B0278A98D205798D8EAD688E964D22 /* NBNumberFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD5E37EA238DDB35461DF2DC1C4768F /* NBNumberFormat.m */; };
+		9344235F08F433D5E645AC878EF3669F /* APContactListBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 295CB6E1D2B7D39743692A86AB7658D9 /* APContactListBuilder.m */; };
+		941075F8962D541141A7C1E14C7D8E36 /* libPhoneNumber-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27629660EA621FF6615A828A4514301F /* libPhoneNumber-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94957EB910D8216AD07A8B0D6150F8A2 /* APImageExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E979CE81A4549838080F52D8ACD2250 /* APImageExtractor.m */; };
+		9894A910A07A748B36420988285FF3FD /* APAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 9142C8E02A4A5E88953F2FD4778FAC1F /* APAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B52A43200FC003414DBD72627BDCD0A /* APAddressBookBaseRoutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEBEFE2E45080DC8DCE68800BED26CC /* APAddressBookBaseRoutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F61CB304F2A99ACC6D93C7FF963927E /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7817A2BA8C1BCF2C7D15251BEB4821A6 /* NBAsYouTypeFormatter.m */; };
+		A5FB26435BAC421A4CA19D4C47D980E9 /* APPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE6F371425A17C7ACC4540D44694AF0 /* APPhone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A970910C962AEFB88500340AE2A580BD /* APAddressBookRefWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 852127EF2180F619E5590C6B79B659E0 /* APAddressBookRefWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D23B278B890907C8D0BAF2A4776EC6 /* NBMetadataCoreTestMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 660584A80337F2CE826F962F75EE9551 /* NBMetadataCoreTestMapper.m */; };
+		B1DEAF30C0488B9AD4BF3717E2AF88E6 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D04DBF433831F00B0D02CBB41260F691 /* APAddressBook.m */; };
+		B6FD89770E63F304CF7162F32B7D6E47 /* NBPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF5D99A7F8A9C041E10473E2486832B /* NBPhoneNumber.m */; };
+		B8A219A77F622AFB3DB6F42B3477AFA4 /* APAddressBookAccessRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 78882FB9BAAB1453E00F96D25C1F4141 /* APAddressBookAccessRoutine.m */; };
+		BEF9B6ED674C0AD76DEE4460B320A924 /* APAddressBookContactsRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9DC589C1386B547F699B40F8A197E /* APAddressBookContactsRoutine.m */; };
+		C1B7BA76098601E6FC3F4C982A58BBDE /* APAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 219FB0A0757F82CAF560D4AF5EBC92F9 /* APAddressBook-dummy.m */; };
+		C504AF7F7395D07EFF01C24D95782449 /* NBMetadataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AACFBFC78FF0BDCB5181F04AB402193 /* NBMetadataHelper.m */; };
+		C671A606E6A608EEDD931FB7D348C62A /* NBPhoneNumberDesc.h in Headers */ = {isa = PBXBuildFile; fileRef = 63FDC72D60A739EDA30DEC061F24D0D7 /* NBPhoneNumberDesc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C83AB332776F2ACC8BDB647742E0E7F2 /* APSocialServiceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AD65689AD8CF121019F4609581D977F1 /* APSocialServiceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD079D9FF6CF2278EA1F123035F7B377 /* NBMetadataCore.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF8AB85429D9C705731138047080843 /* NBMetadataCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2088AF97B38B3E49CDD06AC5125EAC7 /* APSocialServiceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7C698B02815DAF9F54C76F244C36AE /* APSocialServiceHelper.m */; };
+		D3B94A76F6826F3B32D557B297D60E1A /* APContactDate.m in Sources */ = {isa = PBXBuildFile; fileRef = A40E3DE946F7400D6D51DC848D70DEE7 /* APContactDate.m */; };
+		D991CE2496C74B6BEFFED671A9EA7C21 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA6590EC43AD917A0CC6697319DF0C7 /* AddressBook.framework */; };
+		DAB01BB1705A439AC7DC6DADAAE26672 /* APAddressBookBaseRoutine.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D55405352DD6C6E62AFCC2514A035D /* APAddressBookBaseRoutine.m */; };
+		E2CE5E37909F9FB2BDB76F1C0F56CB08 /* NBPhoneNumberDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = BE45DDA514B72D3EFD71D5480A103000 /* NBPhoneNumberDefines.m */; };
+		E72F9E49459EF67F93B7CE47E263C38C /* APEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D25C4C1B4D473E10279465AAFC753D0 /* APEmail.m */; };
+		E803B320362DED092C79ADB3CA8BCC3C /* NBPhoneMetaData.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9ECA609DDD07702C81A793E45A48C4 /* NBPhoneMetaData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E960872F42FA64DC5C6AE090DDDD63E8 /* NBPhoneNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C7D59B819D087EA978E39058DED25B5 /* NBPhoneNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EADD6515CBFB6EDFA2AED953ABB44467 /* APPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB0B0FF62434B18602E2D5D02872B14 /* APPhone.m */; };
+		EDE38B9E3745196A3AECA72DC7947EC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C6C514259285820663556A42DFBC4 /* Foundation.framework */; };
+		EEFF62498D60EEED20B9ADA7B7836D83 /* NBMetadataCoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8849903203C03A7E4287081217B6DE2 /* NBMetadataCoreTest.m */; };
+		EF1BC41DF8F32F15537D19D79838AB58 /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D26B3C9A6F3FF713726874DE632174 /* APAddress.m */; };
+		F0E7E2F8A727C0205C4CC4D9F249B372 /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F850EB4140405375AE34FF889E95844 /* APSocialProfile.m */; };
+		FCB1AD4070E14117E7A29267FF09EC9A /* APRelatedPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A25DE78863175E0EBEB22533D19B94 /* APRelatedPerson.m */; };
+		FF32B7E3828220D5D65C68667AEF0466 /* APAddressBookExternalChangeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 70B2BE7EF2095CB882C5D0A85B6DC0EC /* APAddressBookExternalChangeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF4072CD2ADC0A53206E70F68CAFCC06 /* Pods-OutgoingIncomingCall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD128F127038DD0E6045F31B211CF6E7 /* Pods-OutgoingIncomingCall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C76CCC3FA4B4AA331BD2DD98906B8811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D5D891676725492FDD435B2ACEBBB3B;
+			remoteInfo = "libPhoneNumber-iOS";
+		};
+		F5E0BDFBFB2A23234AA215CB46A72DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01963CC65E7DFDB77EBF3479B0D52BFD;
+			remoteInfo = APAddressBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AB6D2588D0BE9969A8E57DE76F18CF /* APContactDataExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactDataExtractor.h; path = Pod/Core/Private/Extractors/APContactDataExtractor.h; sourceTree = "<group>"; };
+		0122B26ED1F49CBD25E79723D4E75823 /* APAddressBookExternalChangeRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookExternalChangeRoutine.h; path = Pod/Core/Private/Routine/APAddressBookExternalChangeRoutine.h; sourceTree = "<group>"; };
+		036E6323B8D4E3F4E3C7A1FA107C2702 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0461F5AB0A342FF17A9C21723F9479B6 /* APAddressBookContactsRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookContactsRoutine.h; path = Pod/Core/Private/Routine/APAddressBookContactsRoutine.h; sourceTree = "<group>"; };
+		07907F8ECB583FA420DAA0EA948E5DD6 /* APRecordDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APRecordDate.m; path = Pod/Core/Public/Models/APRecordDate.m; sourceTree = "<group>"; };
+		0CF171F8D64C2BC333FE38FD5A10E638 /* APContactBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactBuilder.m; path = Pod/Core/Private/Builders/APContactBuilder.m; sourceTree = "<group>"; };
+		0DA6590EC43AD917A0CC6697319DF0C7 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		0F9DD3EE71B624E7998ED770E0441249 /* PlivoVoiceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlivoVoiceKit.framework; sourceTree = "<group>"; };
+		16EBE063C287CCC958A01C9F04155760 /* NBMetadataCoreTest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreTest.h; path = libPhoneNumber/NBMetadataCoreTest.h; sourceTree = "<group>"; };
+		17129F93EA7EBD6EC2F16B83451BE712 /* APAddressBookRefWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookRefWrapper.m; path = Pod/Core/Private/Wrapper/APAddressBookRefWrapper.m; sourceTree = "<group>"; };
+		202EDEA912FEE88920286C3842F15483 /* APEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APEmail.h; path = Pod/Core/Public/Models/APEmail.h; sourceTree = "<group>"; };
+		219FB0A0757F82CAF560D4AF5EBC92F9 /* APAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAddressBook-dummy.m"; sourceTree = "<group>"; };
+		22D55405352DD6C6E62AFCC2514A035D /* APAddressBookBaseRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookBaseRoutine.m; path = Pod/Core/Private/Routine/Base/APAddressBookBaseRoutine.m; sourceTree = "<group>"; };
+		24148141B7CE2D21271C6F1690B026D0 /* libPhoneNumber-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-prefix.pch"; sourceTree = "<group>"; };
+		27629660EA621FF6615A828A4514301F /* libPhoneNumber-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libPhoneNumber-iOS-umbrella.h"; sourceTree = "<group>"; };
+		295CB6E1D2B7D39743692A86AB7658D9 /* APContactListBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactListBuilder.m; path = Pod/Core/Private/Builders/APContactListBuilder.m; sourceTree = "<group>"; };
+		2B9ECA609DDD07702C81A793E45A48C4 /* NBPhoneMetaData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneMetaData.h; path = libPhoneNumber/NBPhoneMetaData.h; sourceTree = "<group>"; };
+		2DC903638C6C071FB8F093C18C75AE9E /* APAddressBook-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "APAddressBook-Bridging.h"; path = "Pod/Swift/APAddressBook-Bridging.h"; sourceTree = "<group>"; };
+		2E979CE81A4549838080F52D8ACD2250 /* APImageExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APImageExtractor.m; path = Pod/Core/Private/Extractors/APImageExtractor.m; sourceTree = "<group>"; };
+		31C919514FC24616CA4081CCDFB39C79 /* APAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddress.h; path = Pod/Core/Public/Models/APAddress.h; sourceTree = "<group>"; };
+		346441BB5CA604DD594DADC8152E4E85 /* NBNumberFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBNumberFormat.h; path = libPhoneNumber/NBNumberFormat.h; sourceTree = "<group>"; };
+		379562151CA024E5DB3E11D60DDA96E7 /* Pods-OutgoingIncomingCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OutgoingIncomingCall.debug.xcconfig"; sourceTree = "<group>"; };
+		37D2224C32BB31702AFC10E7BB70542D /* Pods-OutgoingIncomingCall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OutgoingIncomingCall.modulemap"; sourceTree = "<group>"; };
+		3D25C4C1B4D473E10279465AAFC753D0 /* APEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APEmail.m; path = Pod/Core/Public/Models/APEmail.m; sourceTree = "<group>"; };
+		3FE90B81791BA438D62EFCAAD2520110 /* APSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSource.m; path = Pod/Core/Public/Models/APSource.m; sourceTree = "<group>"; };
+		49A769A93FD25A289282390EAC7B580B /* APAddressBookExternalChangeRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookExternalChangeRoutine.m; path = Pod/Core/Private/Routine/APAddressBookExternalChangeRoutine.m; sourceTree = "<group>"; };
+		4AACFBFC78FF0BDCB5181F04AB402193 /* NBMetadataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataHelper.m; path = libPhoneNumber/NBMetadataHelper.m; sourceTree = "<group>"; };
+		50A948D5CC235625DB04C6F7B087FF18 /* NBPhoneMetaData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneMetaData.m; path = libPhoneNumber/NBPhoneMetaData.m; sourceTree = "<group>"; };
+		50C2B1D2C03FF4E68DC6F0599AA9FBC3 /* APAddressBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APAddressBook.framework; path = APAddressBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53743EDB2D82460D28722ED31467E99C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		55343726A8B59300C10DE7593D8102FE /* NBMetadataCoreMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreMapper.h; path = libPhoneNumber/NBMetadataCoreMapper.h; sourceTree = "<group>"; };
+		5AE6F371425A17C7ACC4540D44694AF0 /* APPhone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APPhone.h; path = Pod/Core/Public/Models/APPhone.h; sourceTree = "<group>"; };
+		5C4DD56924700A24D0B43BECAEDEB522 /* Pods-OutgoingIncomingCall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OutgoingIncomingCall-resources.sh"; sourceTree = "<group>"; };
+		5EBB7F3BB3AD3FA66A902E20F3A361DA /* APName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APName.h; path = Pod/Core/Public/Models/APName.h; sourceTree = "<group>"; };
+		63FDC72D60A739EDA30DEC061F24D0D7 /* NBPhoneNumberDesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDesc.h; path = libPhoneNumber/NBPhoneNumberDesc.h; sourceTree = "<group>"; };
+		660584A80337F2CE826F962F75EE9551 /* NBMetadataCoreTestMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreTestMapper.m; path = libPhoneNumber/NBMetadataCoreTestMapper.m; sourceTree = "<group>"; };
+		68AC7559C8BBF2501BFD407909DA23FA /* APThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APThread.m; path = Pod/Core/Private/Thread/APThread.m; sourceTree = "<group>"; };
+		6DD5E37EA238DDB35461DF2DC1C4768F /* NBNumberFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBNumberFormat.m; path = libPhoneNumber/NBNumberFormat.m; sourceTree = "<group>"; };
+		6FBE45DD3D1DF6BD61245DCD45E874E8 /* APContactDataExtractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactDataExtractor.m; path = Pod/Core/Private/Extractors/APContactDataExtractor.m; sourceTree = "<group>"; };
+		70B2BE7EF2095CB882C5D0A85B6DC0EC /* APAddressBookExternalChangeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookExternalChangeDelegate.h; path = Pod/Core/Private/Routine/APAddressBookExternalChangeDelegate.h; sourceTree = "<group>"; };
+		725C6C514259285820663556A42DFBC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		727E213B338FCBBB42A0BBAD6D4EC639 /* APContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContact.h; path = Pod/Core/Public/Models/APContact.h; sourceTree = "<group>"; };
+		730E0A51B6FA45935572B36CA15C6236 /* APAddressBookAccessRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookAccessRoutine.h; path = Pod/Core/Private/Routine/APAddressBookAccessRoutine.h; sourceTree = "<group>"; };
+		7817A2BA8C1BCF2C7D15251BEB4821A6 /* NBAsYouTypeFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBAsYouTypeFormatter.m; path = libPhoneNumber/NBAsYouTypeFormatter.m; sourceTree = "<group>"; };
+		78882FB9BAAB1453E00F96D25C1F4141 /* APAddressBookAccessRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookAccessRoutine.m; path = Pod/Core/Private/Routine/APAddressBookAccessRoutine.m; sourceTree = "<group>"; };
+		7BB5F8C86F176E429E83CF24A0FD4FC5 /* APSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSource.h; path = Pod/Core/Public/Models/APSource.h; sourceTree = "<group>"; };
+		7CF67FB188504654A0B324CEE3A37985 /* APImageExtractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APImageExtractor.h; path = Pod/Core/Private/Extractors/APImageExtractor.h; sourceTree = "<group>"; };
+		7EF46CF2A07D973E97FABEE18F4A29E7 /* APAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		7F850EB4140405375AE34FF889E95844 /* APSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialProfile.m; path = Pod/Core/Public/Models/APSocialProfile.m; sourceTree = "<group>"; };
+		822D7C6EA7520A517A2AF0E6670B42B5 /* Pods_OutgoingIncomingCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OutgoingIncomingCall.framework; path = "Pods-OutgoingIncomingCall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		824B42E24CF2402479FB9C6B6520E1F9 /* APAddressBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APAddressBook.modulemap; sourceTree = "<group>"; };
+		82A7D3C2AF9907468E1E4D9BCC40DCAB /* NBMetadataCoreTestMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCoreTestMapper.h; path = libPhoneNumber/NBMetadataCoreTestMapper.h; sourceTree = "<group>"; };
+		84D04FDDB17B320DE25F68D87E3081E9 /* APTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APTypes.h; path = Pod/Core/Public/Models/APTypes.h; sourceTree = "<group>"; };
+		852127EF2180F619E5590C6B79B659E0 /* APAddressBookRefWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookRefWrapper.h; path = Pod/Core/Private/Wrapper/APAddressBookRefWrapper.h; sourceTree = "<group>"; };
+		85DE38401AB86FC4E2C28F98C7C6DE9D /* NBPhoneNumberUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberUtil.h; path = libPhoneNumber/NBPhoneNumberUtil.h; sourceTree = "<group>"; };
+		87F7E97E4400527469B67D28E767D7B3 /* Pods-OutgoingIncomingCall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OutgoingIncomingCall-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AEBEFE2E45080DC8DCE68800BED26CC /* APAddressBookBaseRoutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookBaseRoutine.h; path = Pod/Core/Private/Routine/Base/APAddressBookBaseRoutine.h; sourceTree = "<group>"; };
+		8C7D59B819D087EA978E39058DED25B5 /* NBPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumber.h; path = libPhoneNumber/NBPhoneNumber.h; sourceTree = "<group>"; };
+		9142C8E02A4A5E88953F2FD4778FAC1F /* APAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBook.h; path = Pod/Core/Public/APAddressBook.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95955EDB8211EED60F5FE80132E935A1 /* NBMetadataCore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCore.m; path = libPhoneNumber/NBMetadataCore.m; sourceTree = "<group>"; };
+		95A3B78DE31C1239F8BF09BE54B8A89D /* APContactDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactDate.h; path = Pod/Core/Public/Models/APContactDate.h; sourceTree = "<group>"; };
+		964FB2862F4250ED188B4391BCF6EFA0 /* APContactBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactBuilder.h; path = Pod/Core/Private/Builders/APContactBuilder.h; sourceTree = "<group>"; };
+		99D79925A2DA3020D4319A51C64A357C /* NBPhoneNumberDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBPhoneNumberDefines.h; path = libPhoneNumber/NBPhoneNumberDefines.h; sourceTree = "<group>"; };
+		9D1C8540E4C4C671ADB74D376B3BD88D /* libPhoneNumber-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "libPhoneNumber-iOS.xcconfig"; sourceTree = "<group>"; };
+		9F47AB5E05AC8E92C4946367C25C9DAF /* APJob.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APJob.h; path = Pod/Core/Public/Models/APJob.h; sourceTree = "<group>"; };
+		A40E3DE946F7400D6D51DC848D70DEE7 /* APContactDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContactDate.m; path = Pod/Core/Public/Models/APContactDate.m; sourceTree = "<group>"; };
+		A44B576D297689EE404369AFC6C9817B /* NBPhoneNumberDesc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDesc.m; path = libPhoneNumber/NBPhoneNumberDesc.m; sourceTree = "<group>"; };
+		A5D26B3C9A6F3FF713726874DE632174 /* APAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddress.m; path = Pod/Core/Public/Models/APAddress.m; sourceTree = "<group>"; };
+		AD65689AD8CF121019F4609581D977F1 /* APSocialServiceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialServiceHelper.h; path = Pod/Core/Private/Helpers/APSocialServiceHelper.h; sourceTree = "<group>"; };
+		AF91843EDECDA83A97AB80D9BE2154FC /* NBMetadataCoreMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreMapper.m; path = libPhoneNumber/NBMetadataCoreMapper.m; sourceTree = "<group>"; };
+		B38E717F644FC6FDDAC62CD05520B7BD /* APSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialProfile.h; path = Pod/Core/Public/Models/APSocialProfile.h; sourceTree = "<group>"; };
+		B61ABD997582BD6560B36F5CE9EC3881 /* NBAsYouTypeFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBAsYouTypeFormatter.h; path = libPhoneNumber/NBAsYouTypeFormatter.h; sourceTree = "<group>"; };
+		BE45DDA514B72D3EFD71D5480A103000 /* NBPhoneNumberDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberDefines.m; path = libPhoneNumber/NBPhoneNumberDefines.m; sourceTree = "<group>"; };
+		BEF8AB85429D9C705731138047080843 /* NBMetadataCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataCore.h; path = libPhoneNumber/NBMetadataCore.h; sourceTree = "<group>"; };
+		BFC81E996A6001DA2918312E3CCB4947 /* Pods-OutgoingIncomingCall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OutgoingIncomingCall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9B813119E6CD838AF4A559D90B7601D /* APAddressBookFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBookFramework.h; path = Pod/Core/Public/APAddressBookFramework.h; sourceTree = "<group>"; };
+		CC46A5AAED9FA0E5AD75380E59291D40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF5D99A7F8A9C041E10473E2486832B /* NBPhoneNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumber.m; path = libPhoneNumber/NBPhoneNumber.m; sourceTree = "<group>"; };
+		CEF6CC6A24CCCD8647C129EAD724A197 /* APAddressBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-umbrella.h"; sourceTree = "<group>"; };
+		D04DBF433831F00B0D02CBB41260F691 /* APAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBook.m; path = Pod/Core/Public/APAddressBook.m; sourceTree = "<group>"; };
+		D2540933C38ADCC2AAD20E5B58FAB33A /* Pods-OutgoingIncomingCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OutgoingIncomingCall.release.xcconfig"; sourceTree = "<group>"; };
+		D3A25DE78863175E0EBEB22533D19B94 /* APRelatedPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APRelatedPerson.m; path = Pod/Core/Public/Models/APRelatedPerson.m; sourceTree = "<group>"; };
+		D48CDE47CBED6E8B180117DEBECB13AB /* Pods-OutgoingIncomingCall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OutgoingIncomingCall-frameworks.sh"; sourceTree = "<group>"; };
+		D78D6003F50537916BB2CFCF0D862FB2 /* APContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContact.m; path = Pod/Core/Public/Models/APContact.m; sourceTree = "<group>"; };
+		D7A1BD8E9CA1282434D9CB7DBA2E7C48 /* APRelatedPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APRelatedPerson.h; path = Pod/Core/Public/Models/APRelatedPerson.h; sourceTree = "<group>"; };
+		D84714BA36A4B52A5A3DEA05BFF15221 /* libPhoneNumber-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "libPhoneNumber-iOS.modulemap"; sourceTree = "<group>"; };
+		D9CBB758822B446B87E258E9F92A1A38 /* NBMetadataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NBMetadataHelper.h; path = libPhoneNumber/NBMetadataHelper.h; sourceTree = "<group>"; };
+		DAA9AA34F460E91502FD8B90EB3CCC1D /* APRecordDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APRecordDate.h; path = Pod/Core/Public/Models/APRecordDate.h; sourceTree = "<group>"; };
+		DD64751BF8E657723A1423F8A3366D17 /* libPhoneNumber-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libPhoneNumber-iOS-dummy.m"; sourceTree = "<group>"; };
+		DEB0B0FF62434B18602E2D5D02872B14 /* APPhone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APPhone.m; path = Pod/Core/Public/Models/APPhone.m; sourceTree = "<group>"; };
+		E6F4C6040ED000F6D0A0C6615F6925D6 /* NBPhoneNumberUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBPhoneNumberUtil.m; path = libPhoneNumber/NBPhoneNumberUtil.m; sourceTree = "<group>"; };
+		EAC1124765CCA368EA037E775A77CD17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9F5966D51CFC3E63BC48798AA4EDE5 /* APAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAddressBook.xcconfig; sourceTree = "<group>"; };
+		F12A7D2C62E52319DB092B175F4EB041 /* Pods-OutgoingIncomingCall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OutgoingIncomingCall-dummy.m"; sourceTree = "<group>"; };
+		F3397A8D5285D36B19EC06D43001D1DB /* APThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APThread.h; path = Pod/Core/Private/Thread/APThread.h; sourceTree = "<group>"; };
+		F8849903203C03A7E4287081217B6DE2 /* NBMetadataCoreTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NBMetadataCoreTest.m; path = libPhoneNumber/NBMetadataCoreTest.m; sourceTree = "<group>"; };
+		F928962FA6043CA8DDB08CF002C2CF30 /* APJob.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APJob.m; path = Pod/Core/Public/Models/APJob.m; sourceTree = "<group>"; };
+		FAB9DC589C1386B547F699B40F8A197E /* APAddressBookContactsRoutine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBookContactsRoutine.m; path = Pod/Core/Private/Routine/APAddressBookContactsRoutine.m; sourceTree = "<group>"; };
+		FB7C698B02815DAF9F54C76F244C36AE /* APSocialServiceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialServiceHelper.m; path = Pod/Core/Private/Helpers/APSocialServiceHelper.m; sourceTree = "<group>"; };
+		FCE7D3BE2993FDFEE557878C854A7B83 /* APContactListBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContactListBuilder.h; path = Pod/Core/Private/Builders/APContactListBuilder.h; sourceTree = "<group>"; };
+		FD128F127038DD0E6045F31B211CF6E7 /* Pods-OutgoingIncomingCall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OutgoingIncomingCall-umbrella.h"; sourceTree = "<group>"; };
+		FE92B9480478564A46DC053D61D730D3 /* libPhoneNumber_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libPhoneNumber_iOS.framework; path = "libPhoneNumber-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF036E720289DF38D9BA73BF4910A714 /* APName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APName.m; path = Pod/Core/Public/Models/APName.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D260C87D405AEF5486F446E8DB401DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				901088DFE25AEE40A0BCDD3A7EE651B7 /* CoreTelephony.framework in Frameworks */,
+				33411E8B2A6D3173878F679FE0898B7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D877A23D0B20B1882EBE40410AC5F976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D991CE2496C74B6BEFFED671A9EA7C21 /* AddressBook.framework in Frameworks */,
+				8781A068364D96D003F5EC4DFAA487FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BE1192828CF2706E852ABDF5D6968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE38B9E3745196A3AECA72DC7947EC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0F3E93DEED5D82275260A5992FD982 /* APAddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				356D51F6F0230836D930A00CABBF839A /* Core */,
+				C7524C164EE73E25744651797FFF6F7E /* Support Files */,
+				49E26EA6CB8236AC6BD9C9998AA6C008 /* Swift */,
+			);
+			name = APAddressBook;
+			path = APAddressBook;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F90D521E64A1AC6069D4521ED96D3214 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF4D2FA0E0A718B10356C4484917442 /* libPhoneNumber-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B61ABD997582BD6560B36F5CE9EC3881 /* NBAsYouTypeFormatter.h */,
+				7817A2BA8C1BCF2C7D15251BEB4821A6 /* NBAsYouTypeFormatter.m */,
+				BEF8AB85429D9C705731138047080843 /* NBMetadataCore.h */,
+				95955EDB8211EED60F5FE80132E935A1 /* NBMetadataCore.m */,
+				55343726A8B59300C10DE7593D8102FE /* NBMetadataCoreMapper.h */,
+				AF91843EDECDA83A97AB80D9BE2154FC /* NBMetadataCoreMapper.m */,
+				16EBE063C287CCC958A01C9F04155760 /* NBMetadataCoreTest.h */,
+				F8849903203C03A7E4287081217B6DE2 /* NBMetadataCoreTest.m */,
+				82A7D3C2AF9907468E1E4D9BCC40DCAB /* NBMetadataCoreTestMapper.h */,
+				660584A80337F2CE826F962F75EE9551 /* NBMetadataCoreTestMapper.m */,
+				D9CBB758822B446B87E258E9F92A1A38 /* NBMetadataHelper.h */,
+				4AACFBFC78FF0BDCB5181F04AB402193 /* NBMetadataHelper.m */,
+				346441BB5CA604DD594DADC8152E4E85 /* NBNumberFormat.h */,
+				6DD5E37EA238DDB35461DF2DC1C4768F /* NBNumberFormat.m */,
+				2B9ECA609DDD07702C81A793E45A48C4 /* NBPhoneMetaData.h */,
+				50A948D5CC235625DB04C6F7B087FF18 /* NBPhoneMetaData.m */,
+				8C7D59B819D087EA978E39058DED25B5 /* NBPhoneNumber.h */,
+				CEF5D99A7F8A9C041E10473E2486832B /* NBPhoneNumber.m */,
+				99D79925A2DA3020D4319A51C64A357C /* NBPhoneNumberDefines.h */,
+				BE45DDA514B72D3EFD71D5480A103000 /* NBPhoneNumberDefines.m */,
+				63FDC72D60A739EDA30DEC061F24D0D7 /* NBPhoneNumberDesc.h */,
+				A44B576D297689EE404369AFC6C9817B /* NBPhoneNumberDesc.m */,
+				85DE38401AB86FC4E2C28F98C7C6DE9D /* NBPhoneNumberUtil.h */,
+				E6F4C6040ED000F6D0A0C6615F6925D6 /* NBPhoneNumberUtil.m */,
+				66586EF8CF52C7249CF6CE819CB9CD63 /* Support Files */,
+			);
+			name = "libPhoneNumber-iOS";
+			path = "libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		356D51F6F0230836D930A00CABBF839A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				31C919514FC24616CA4081CCDFB39C79 /* APAddress.h */,
+				A5D26B3C9A6F3FF713726874DE632174 /* APAddress.m */,
+				9142C8E02A4A5E88953F2FD4778FAC1F /* APAddressBook.h */,
+				D04DBF433831F00B0D02CBB41260F691 /* APAddressBook.m */,
+				730E0A51B6FA45935572B36CA15C6236 /* APAddressBookAccessRoutine.h */,
+				78882FB9BAAB1453E00F96D25C1F4141 /* APAddressBookAccessRoutine.m */,
+				8AEBEFE2E45080DC8DCE68800BED26CC /* APAddressBookBaseRoutine.h */,
+				22D55405352DD6C6E62AFCC2514A035D /* APAddressBookBaseRoutine.m */,
+				0461F5AB0A342FF17A9C21723F9479B6 /* APAddressBookContactsRoutine.h */,
+				FAB9DC589C1386B547F699B40F8A197E /* APAddressBookContactsRoutine.m */,
+				70B2BE7EF2095CB882C5D0A85B6DC0EC /* APAddressBookExternalChangeDelegate.h */,
+				0122B26ED1F49CBD25E79723D4E75823 /* APAddressBookExternalChangeRoutine.h */,
+				49A769A93FD25A289282390EAC7B580B /* APAddressBookExternalChangeRoutine.m */,
+				C9B813119E6CD838AF4A559D90B7601D /* APAddressBookFramework.h */,
+				852127EF2180F619E5590C6B79B659E0 /* APAddressBookRefWrapper.h */,
+				17129F93EA7EBD6EC2F16B83451BE712 /* APAddressBookRefWrapper.m */,
+				727E213B338FCBBB42A0BBAD6D4EC639 /* APContact.h */,
+				D78D6003F50537916BB2CFCF0D862FB2 /* APContact.m */,
+				964FB2862F4250ED188B4391BCF6EFA0 /* APContactBuilder.h */,
+				0CF171F8D64C2BC333FE38FD5A10E638 /* APContactBuilder.m */,
+				00AB6D2588D0BE9969A8E57DE76F18CF /* APContactDataExtractor.h */,
+				6FBE45DD3D1DF6BD61245DCD45E874E8 /* APContactDataExtractor.m */,
+				95A3B78DE31C1239F8BF09BE54B8A89D /* APContactDate.h */,
+				A40E3DE946F7400D6D51DC848D70DEE7 /* APContactDate.m */,
+				FCE7D3BE2993FDFEE557878C854A7B83 /* APContactListBuilder.h */,
+				295CB6E1D2B7D39743692A86AB7658D9 /* APContactListBuilder.m */,
+				202EDEA912FEE88920286C3842F15483 /* APEmail.h */,
+				3D25C4C1B4D473E10279465AAFC753D0 /* APEmail.m */,
+				7CF67FB188504654A0B324CEE3A37985 /* APImageExtractor.h */,
+				2E979CE81A4549838080F52D8ACD2250 /* APImageExtractor.m */,
+				9F47AB5E05AC8E92C4946367C25C9DAF /* APJob.h */,
+				F928962FA6043CA8DDB08CF002C2CF30 /* APJob.m */,
+				5EBB7F3BB3AD3FA66A902E20F3A361DA /* APName.h */,
+				FF036E720289DF38D9BA73BF4910A714 /* APName.m */,
+				5AE6F371425A17C7ACC4540D44694AF0 /* APPhone.h */,
+				DEB0B0FF62434B18602E2D5D02872B14 /* APPhone.m */,
+				DAA9AA34F460E91502FD8B90EB3CCC1D /* APRecordDate.h */,
+				07907F8ECB583FA420DAA0EA948E5DD6 /* APRecordDate.m */,
+				D7A1BD8E9CA1282434D9CB7DBA2E7C48 /* APRelatedPerson.h */,
+				D3A25DE78863175E0EBEB22533D19B94 /* APRelatedPerson.m */,
+				B38E717F644FC6FDDAC62CD05520B7BD /* APSocialProfile.h */,
+				7F850EB4140405375AE34FF889E95844 /* APSocialProfile.m */,
+				AD65689AD8CF121019F4609581D977F1 /* APSocialServiceHelper.h */,
+				FB7C698B02815DAF9F54C76F244C36AE /* APSocialServiceHelper.m */,
+				7BB5F8C86F176E429E83CF24A0FD4FC5 /* APSource.h */,
+				3FE90B81791BA438D62EFCAAD2520110 /* APSource.m */,
+				F3397A8D5285D36B19EC06D43001D1DB /* APThread.h */,
+				68AC7559C8BBF2501BFD407909DA23FA /* APThread.m */,
+				84D04FDDB17B320DE25F68D87E3081E9 /* APTypes.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		49E26EA6CB8236AC6BD9C9998AA6C008 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2DC903638C6C071FB8F093C18C75AE9E /* APAddressBook-Bridging.h */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		4DFD82464217FAFA316EEE5EC2DBD70E /* Pods-OutgoingIncomingCall */ = {
+			isa = PBXGroup;
+			children = (
+				EAC1124765CCA368EA037E775A77CD17 /* Info.plist */,
+				37D2224C32BB31702AFC10E7BB70542D /* Pods-OutgoingIncomingCall.modulemap */,
+				BFC81E996A6001DA2918312E3CCB4947 /* Pods-OutgoingIncomingCall-acknowledgements.markdown */,
+				87F7E97E4400527469B67D28E767D7B3 /* Pods-OutgoingIncomingCall-acknowledgements.plist */,
+				F12A7D2C62E52319DB092B175F4EB041 /* Pods-OutgoingIncomingCall-dummy.m */,
+				D48CDE47CBED6E8B180117DEBECB13AB /* Pods-OutgoingIncomingCall-frameworks.sh */,
+				5C4DD56924700A24D0B43BECAEDEB522 /* Pods-OutgoingIncomingCall-resources.sh */,
+				FD128F127038DD0E6045F31B211CF6E7 /* Pods-OutgoingIncomingCall-umbrella.h */,
+				379562151CA024E5DB3E11D60DDA96E7 /* Pods-OutgoingIncomingCall.debug.xcconfig */,
+				D2540933C38ADCC2AAD20E5B58FAB33A /* Pods-OutgoingIncomingCall.release.xcconfig */,
+			);
+			name = "Pods-OutgoingIncomingCall";
+			path = "Target Support Files/Pods-OutgoingIncomingCall";
+			sourceTree = "<group>";
+		};
+		645756945061047DB4B1EBEDC282EC98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F9DD3EE71B624E7998ED770E0441249 /* PlivoVoiceKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66586EF8CF52C7249CF6CE819CB9CD63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				036E6323B8D4E3F4E3C7A1FA107C2702 /* Info.plist */,
+				D84714BA36A4B52A5A3DEA05BFF15221 /* libPhoneNumber-iOS.modulemap */,
+				9D1C8540E4C4C671ADB74D376B3BD88D /* libPhoneNumber-iOS.xcconfig */,
+				DD64751BF8E657723A1423F8A3366D17 /* libPhoneNumber-iOS-dummy.m */,
+				24148141B7CE2D21271C6F1690B026D0 /* libPhoneNumber-iOS-prefix.pch */,
+				27629660EA621FF6615A828A4514301F /* libPhoneNumber-iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/libPhoneNumber-iOS";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				A8E3784197CEA38855E475962C21E16B /* Pods */,
+				D5808232C14AA685E3B7B7A0554F4D12 /* Products */,
+				C273833408FC55599EAA75768F785742 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A8E3784197CEA38855E475962C21E16B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A0F3E93DEED5D82275260A5992FD982 /* APAddressBook */,
+				1CF4D2FA0E0A718B10356C4484917442 /* libPhoneNumber-iOS */,
+				D764A8BD394657D680346C0427EC50B2 /* PlivoVoiceKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C273833408FC55599EAA75768F785742 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DFD82464217FAFA316EEE5EC2DBD70E /* Pods-OutgoingIncomingCall */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C7524C164EE73E25744651797FFF6F7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				824B42E24CF2402479FB9C6B6520E1F9 /* APAddressBook.modulemap */,
+				EF9F5966D51CFC3E63BC48798AA4EDE5 /* APAddressBook.xcconfig */,
+				219FB0A0757F82CAF560D4AF5EBC92F9 /* APAddressBook-dummy.m */,
+				7EF46CF2A07D973E97FABEE18F4A29E7 /* APAddressBook-prefix.pch */,
+				CEF6CC6A24CCCD8647C129EAD724A197 /* APAddressBook-umbrella.h */,
+				CC46A5AAED9FA0E5AD75380E59291D40 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APAddressBook";
+			sourceTree = "<group>";
+		};
+		D5808232C14AA685E3B7B7A0554F4D12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50C2B1D2C03FF4E68DC6F0599AA9FBC3 /* APAddressBook.framework */,
+				FE92B9480478564A46DC053D61D730D3 /* libPhoneNumber_iOS.framework */,
+				822D7C6EA7520A517A2AF0E6670B42B5 /* Pods_OutgoingIncomingCall.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D764A8BD394657D680346C0427EC50B2 /* PlivoVoiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				645756945061047DB4B1EBEDC282EC98 /* Frameworks */,
+			);
+			name = PlivoVoiceKit;
+			path = PlivoVoiceKit;
+			sourceTree = "<group>";
+		};
+		F90D521E64A1AC6069D4521ED96D3214 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DA6590EC43AD917A0CC6697319DF0C7 /* AddressBook.framework */,
+				53743EDB2D82460D28722ED31467E99C /* CoreTelephony.framework */,
+				725C6C514259285820663556A42DFBC4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7997C9B7626E1AA38AE45C36EE08F340 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941075F8962D541141A7C1E14C7D8E36 /* libPhoneNumber-iOS-umbrella.h in Headers */,
+				36A8ED1D447D64D18A71691491302B51 /* NBAsYouTypeFormatter.h in Headers */,
+				CD079D9FF6CF2278EA1F123035F7B377 /* NBMetadataCore.h in Headers */,
+				36EC9A62E8FF4548AB7E99403B660D38 /* NBMetadataCoreMapper.h in Headers */,
+				1A5923D2A0E6E44A129E617FD3E75732 /* NBMetadataCoreTest.h in Headers */,
+				3F46C74CCB7D535F6ECB98193A925112 /* NBMetadataCoreTestMapper.h in Headers */,
+				519AB05108425A77DF1EB83C73E70D98 /* NBMetadataHelper.h in Headers */,
+				2723332B5C586BAFFAB7E4B2802788B5 /* NBNumberFormat.h in Headers */,
+				E803B320362DED092C79ADB3CA8BCC3C /* NBPhoneMetaData.h in Headers */,
+				E960872F42FA64DC5C6AE090DDDD63E8 /* NBPhoneNumber.h in Headers */,
+				17F43BD263095E16EF936F95F01ACF88 /* NBPhoneNumberDefines.h in Headers */,
+				C671A606E6A608EEDD931FB7D348C62A /* NBPhoneNumberDesc.h in Headers */,
+				5821D73FB91EE5856D78230364A77264 /* NBPhoneNumberUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDF66C351005F9192FDAAAACE453979 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFFBBC8EBB2B5DBB34FFDDDAEABFD1A /* APAddress.h in Headers */,
+				5B6F9E1521DFC43EA0E6864326F4C78D /* APAddressBook-Bridging.h in Headers */,
+				80EF33ADF73B4C70B80BFF09FD96C75D /* APAddressBook-umbrella.h in Headers */,
+				9894A910A07A748B36420988285FF3FD /* APAddressBook.h in Headers */,
+				087D9C4E11D3DB362C28C0530367A7C4 /* APAddressBookAccessRoutine.h in Headers */,
+				9B52A43200FC003414DBD72627BDCD0A /* APAddressBookBaseRoutine.h in Headers */,
+				3E8A772C4214DA4A05098346164B5491 /* APAddressBookContactsRoutine.h in Headers */,
+				FF32B7E3828220D5D65C68667AEF0466 /* APAddressBookExternalChangeDelegate.h in Headers */,
+				32D6D109FEEE316E51F648C535A7D2D0 /* APAddressBookExternalChangeRoutine.h in Headers */,
+				373B813A939F5F4D8F9B10C96B283313 /* APAddressBookFramework.h in Headers */,
+				A970910C962AEFB88500340AE2A580BD /* APAddressBookRefWrapper.h in Headers */,
+				3A7D75FACAC08097B245393B0ACBABEA /* APContact.h in Headers */,
+				10D207842BFA08F92297B4697B3CBB87 /* APContactBuilder.h in Headers */,
+				1733324DC2E7A38C6271D4EB925584DB /* APContactDataExtractor.h in Headers */,
+				65ABAB79769F5304D51D7A60BB9B0E4A /* APContactDate.h in Headers */,
+				4CDB1D5540C2870BC406C48A584060C5 /* APContactListBuilder.h in Headers */,
+				6C10457689CF964F2BFC1D35849AB431 /* APEmail.h in Headers */,
+				22B95914E4653FA0235C0E2F09FF9F07 /* APImageExtractor.h in Headers */,
+				6C8D7A4BF919DEC2DFDC9E4CD93E13C2 /* APJob.h in Headers */,
+				884D140221FD8C99EF75BE6A165ED67B /* APName.h in Headers */,
+				A5FB26435BAC421A4CA19D4C47D980E9 /* APPhone.h in Headers */,
+				4511A07E67E2B53240754C0EBCF4558A /* APRecordDate.h in Headers */,
+				0A528BB1709CEE02424B9DDD1D497130 /* APRelatedPerson.h in Headers */,
+				1AAFA4DAB869CAA3290B347250B5FE5C /* APSocialProfile.h in Headers */,
+				C83AB332776F2ACC8BDB647742E0E7F2 /* APSocialServiceHelper.h in Headers */,
+				55B6EE2680EC1142A15A26F2FF5A1929 /* APSource.h in Headers */,
+				2EDE0F18E67E8D74C91CF754505E9BD4 /* APThread.h in Headers */,
+				8C0C46A3019175387B5E3E9A11078712 /* APTypes.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFC981438AEE2EF4EA45AFECF47642D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4072CD2ADC0A53206E70F68CAFCC06 /* Pods-OutgoingIncomingCall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01963CC65E7DFDB77EBF3479B0D52BFD /* APAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EB45F71964183AEBA2E5359ADBE9B8 /* Build configuration list for PBXNativeTarget "APAddressBook" */;
+			buildPhases = (
+				31157551F94DEC0D21ABD76E6F712548 /* Sources */,
+				D877A23D0B20B1882EBE40410AC5F976 /* Frameworks */,
+				8BDF66C351005F9192FDAAAACE453979 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APAddressBook;
+			productName = APAddressBook;
+			productReference = 50C2B1D2C03FF4E68DC6F0599AA9FBC3 /* APAddressBook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3F24CD957D41B143DE94E9F3FFB2E2 /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */;
+			buildPhases = (
+				150F599F0C17B99CF00883B2A6921B1E /* Sources */,
+				7D260C87D405AEF5486F446E8DB401DB /* Frameworks */,
+				7997C9B7626E1AA38AE45C36EE08F340 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libPhoneNumber-iOS";
+			productName = "libPhoneNumber-iOS";
+			productReference = FE92B9480478564A46DC053D61D730D3 /* libPhoneNumber_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0E94F1E235D7BDC88FE7CF2D5B1C84F /* Pods-OutgoingIncomingCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE46E9BB8CD7DC8415D6B2FB9A03EAFA /* Build configuration list for PBXNativeTarget "Pods-OutgoingIncomingCall" */;
+			buildPhases = (
+				8AA17F00FAB893F6DDA708F2CF82E76B /* Sources */,
+				FC1BE1192828CF2706E852ABDF5D6968 /* Frameworks */,
+				FDFC981438AEE2EF4EA45AFECF47642D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3075CCA014E51C2753E88F7DD0FCCBB7 /* PBXTargetDependency */,
+				594C10F759FC11D46F963259A68668C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-OutgoingIncomingCall";
+			productName = "Pods-OutgoingIncomingCall";
+			productReference = 822D7C6EA7520A517A2AF0E6670B42B5 /* Pods_OutgoingIncomingCall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D5808232C14AA685E3B7B7A0554F4D12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01963CC65E7DFDB77EBF3479B0D52BFD /* APAddressBook */,
+				7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */,
+				A0E94F1E235D7BDC88FE7CF2D5B1C84F /* Pods-OutgoingIncomingCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150F599F0C17B99CF00883B2A6921B1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D28EB4B85948B26BFED31E3D5BE1473 /* libPhoneNumber-iOS-dummy.m in Sources */,
+				9F61CB304F2A99ACC6D93C7FF963927E /* NBAsYouTypeFormatter.m in Sources */,
+				5C8745A75EEA6FA059849F69B9D8B7A8 /* NBMetadataCore.m in Sources */,
+				6B724501CE32241A88B298086EA53046 /* NBMetadataCoreMapper.m in Sources */,
+				EEFF62498D60EEED20B9ADA7B7836D83 /* NBMetadataCoreTest.m in Sources */,
+				B1D23B278B890907C8D0BAF2A4776EC6 /* NBMetadataCoreTestMapper.m in Sources */,
+				C504AF7F7395D07EFF01C24D95782449 /* NBMetadataHelper.m in Sources */,
+				91B0278A98D205798D8EAD688E964D22 /* NBNumberFormat.m in Sources */,
+				757DAB4F19B1540CC902016FD8F19DCE /* NBPhoneMetaData.m in Sources */,
+				B6FD89770E63F304CF7162F32B7D6E47 /* NBPhoneNumber.m in Sources */,
+				E2CE5E37909F9FB2BDB76F1C0F56CB08 /* NBPhoneNumberDefines.m in Sources */,
+				1AB57CF1180A260A69C6FFE7878335D5 /* NBPhoneNumberDesc.m in Sources */,
+				4B36709D8D76E08C6AC977FD7C6CEF8E /* NBPhoneNumberUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31157551F94DEC0D21ABD76E6F712548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1BC41DF8F32F15537D19D79838AB58 /* APAddress.m in Sources */,
+				C1B7BA76098601E6FC3F4C982A58BBDE /* APAddressBook-dummy.m in Sources */,
+				B1DEAF30C0488B9AD4BF3717E2AF88E6 /* APAddressBook.m in Sources */,
+				B8A219A77F622AFB3DB6F42B3477AFA4 /* APAddressBookAccessRoutine.m in Sources */,
+				DAB01BB1705A439AC7DC6DADAAE26672 /* APAddressBookBaseRoutine.m in Sources */,
+				BEF9B6ED674C0AD76DEE4460B320A924 /* APAddressBookContactsRoutine.m in Sources */,
+				4AD580F6F264FAA7A87EA87E3889C689 /* APAddressBookExternalChangeRoutine.m in Sources */,
+				3647EFF58D20B3722D418335CB34069D /* APAddressBookRefWrapper.m in Sources */,
+				094E8A01CE853FEDC38E39D45A47F7E1 /* APContact.m in Sources */,
+				120ED896191B390A54FCD68EA359F9BC /* APContactBuilder.m in Sources */,
+				4D497A52238131C2A11F1FCF4ABEE889 /* APContactDataExtractor.m in Sources */,
+				D3B94A76F6826F3B32D557B297D60E1A /* APContactDate.m in Sources */,
+				9344235F08F433D5E645AC878EF3669F /* APContactListBuilder.m in Sources */,
+				E72F9E49459EF67F93B7CE47E263C38C /* APEmail.m in Sources */,
+				94957EB910D8216AD07A8B0D6150F8A2 /* APImageExtractor.m in Sources */,
+				71D0304274146040D5CD92F33A6A0337 /* APJob.m in Sources */,
+				4F421D57E75C3332EE0887A399F43327 /* APName.m in Sources */,
+				EADD6515CBFB6EDFA2AED953ABB44467 /* APPhone.m in Sources */,
+				75548F0266CF0DF5CEFADF08406EDFAA /* APRecordDate.m in Sources */,
+				FCB1AD4070E14117E7A29267FF09EC9A /* APRelatedPerson.m in Sources */,
+				F0E7E2F8A727C0205C4CC4D9F249B372 /* APSocialProfile.m in Sources */,
+				D2088AF97B38B3E49CDD06AC5125EAC7 /* APSocialServiceHelper.m in Sources */,
+				7496D017124C18D3D522601F7770D8A7 /* APSource.m in Sources */,
+				17FBF5B604C3FA05E8B15573E57B304C /* APThread.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA17F00FAB893F6DDA708F2CF82E76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42398F495D04FF8B1EC3C5EF07082030 /* Pods-OutgoingIncomingCall-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3075CCA014E51C2753E88F7DD0FCCBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = APAddressBook;
+			target = 01963CC65E7DFDB77EBF3479B0D52BFD /* APAddressBook */;
+			targetProxy = F5E0BDFBFB2A23234AA215CB46A72DE1 /* PBXContainerItemProxy */;
+		};
+		594C10F759FC11D46F963259A68668C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libPhoneNumber-iOS";
+			target = 7D5D891676725492FDD435B2ACEBBB3B /* libPhoneNumber-iOS */;
+			targetProxy = C76CCC3FA4B4AA331BD2DD98906B8811 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28FD2103C8AC25EC3432ECE5CF835462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1C8540E4C4C671ADB74D376B3BD88D /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				PRODUCT_MODULE_NAME = libPhoneNumber_iOS;
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C04E9D4D074D9A8EDF4C9EE45E40F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2540933C38ADCC2AAD20E5B58FAB33A /* Pods-OutgoingIncomingCall.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OutgoingIncomingCall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OutgoingIncomingCall/Pods-OutgoingIncomingCall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		847ED95784ACD15F9083EC43DE769BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 379562151CA024E5DB3E11D60DDA96E7 /* Pods-OutgoingIncomingCall.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OutgoingIncomingCall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OutgoingIncomingCall/Pods-OutgoingIncomingCall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B129C579EEF301751F2E8CB6E7C9036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9F5966D51CFC3E63BC48798AA4EDE5 /* APAddressBook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/APAddressBook/APAddressBook.modulemap";
+				PRODUCT_MODULE_NAME = APAddressBook;
+				PRODUCT_NAME = APAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91D48984E1A6B0A9DFAC6C17FFE52B7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9F5966D51CFC3E63BC48798AA4EDE5 /* APAddressBook.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APAddressBook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/APAddressBook/APAddressBook.modulemap";
+				PRODUCT_MODULE_NAME = APAddressBook;
+				PRODUCT_NAME = APAddressBook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A375CB63F7CCEA369090301C0AD34B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E177439BF6058DFD686B52B85090171A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D1C8540E4C4C671ADB74D376B3BD88D /* libPhoneNumber-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/libPhoneNumber-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/libPhoneNumber-iOS/libPhoneNumber-iOS.modulemap";
+				PRODUCT_MODULE_NAME = libPhoneNumber_iOS;
+				PRODUCT_NAME = libPhoneNumber_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D1462ED738211B8DE6177FCF4E09D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D3F24CD957D41B143DE94E9F3FFB2E2 /* Build configuration list for PBXNativeTarget "libPhoneNumber-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28FD2103C8AC25EC3432ECE5CF835462 /* Debug */,
+				E177439BF6058DFD686B52B85090171A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D1462ED738211B8DE6177FCF4E09D7 /* Debug */,
+				9A375CB63F7CCEA369090301C0AD34B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EB45F71964183AEBA2E5359ADBE9B8 /* Build configuration list for PBXNativeTarget "APAddressBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B129C579EEF301751F2E8CB6E7C9036 /* Debug */,
+				91D48984E1A6B0A9DFAC6C17FFE52B7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE46E9BB8CD7DC8415D6B2FB9A03EAFA /* Build configuration list for PBXNativeTarget "Pods-OutgoingIncomingCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847ED95784ACD15F9083EC43DE769BC8 /* Debug */,
+				4C04E9D4D074D9A8EDF4C9EE45E40F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

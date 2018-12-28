@@ -2,6 +2,9 @@
 ![Login](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Login.png)
 ![DialPad](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/DialPad.png)
 ![Calling](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Calling.png)
+![Contacts](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Tab_Contacts.png)
+![Recents](https://github.com/Ankish/PlivoExamplesSwift/blob/master/Images/Tab_Recents.png)
+
 
 ## Get started with Voice on iOS:
 1) [Quickstart](https://github.com/Ankish/PlivoExamplesSwift#1-quickstart) - Run the quickstart apps
@@ -112,6 +115,12 @@ i) Select the Background Modes and enable the following items -
 ii)  `✅ Push Notifications`
 
 Note: Inorder to receive calls only when the app is active, checkout [PushHandler](https://github.com/Ankish/PlivoExamplesSwift/blob/master/OutgoingIncomingCall/OutgoingIncomingCall/Util/PushHandler.swift)
+
+#### Integrating Contacts and Recents
+For quick integration of Contacts and Recents we have added an example project. Checkout [CallingWithContactsRecent](https://github.com/Ankish/PlivoExamplesSwift/tree/master/CallingWithContactsRecent)
+
+Note:
+CallKit and related features might not work in Simulator due to its default designed limitations.
 
 ### 3) More Documentation
 You can find more documentation on getting started as well as our latest AppleDoc below:
