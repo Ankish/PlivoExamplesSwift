@@ -149,7 +149,7 @@ class CallKitInstance: NSObject,CXProviderDelegate, CXCallObserverDelegate {
                 /* assign incCall var */
                 CallKitInstance.sharedInstance.callUUID = UUID()
                 PlivoManager.sharedInstance.setUpIncomingCall(incomingCall: incoming)
-                reportIncomingCall(from: incoming.fromUser, with: CallKitInstance.sharedInstance.callUUID!)
+                reportIncomingCall(from: incoming.endpointName, with: CallKitInstance.sharedInstance.callUUID!)
             } else {
                 /*
                  * Reject the call when we already have active ongoing call
