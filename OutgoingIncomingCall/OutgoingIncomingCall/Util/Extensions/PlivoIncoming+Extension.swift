@@ -2,7 +2,7 @@
 //  PlivoIncoming+Extension.swift
 //  OutgoingIncomingCall
 //
-//  Created by Raja Sekar on 12/28/18.
+//  Created by Plivo on 12/28/18.
 //  Copyright © 2018 Plivo. All rights reserved.
 //
 
