@@ -119,6 +119,9 @@ Note: Inorder to receive calls only when the app is active, checkout [PushHandle
 #### Integrating Contacts and Recents
 For quick integration of Contacts and Recents we have added an example project. Checkout [CallingWithContactsRecent](https://github.com/Ankish/PlivoExamplesSwift/tree/master/CallingWithContactsRecent)
 
+Note:
+CallKit and related features might not work in Simulator due to its default designed limitations.
+
 ### 3) More Documentation
 You can find more documentation on getting started as well as our latest AppleDoc below:
 * [Api Reference](https://api-reference.plivo.com/latest/curl/resources/call/make-a-call)
