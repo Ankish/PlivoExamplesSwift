@@ -288,6 +288,7 @@ extension CallViewController : PlivoEndpointDelegate  {
         DispatchQueue.main.async {
             Logger.logDebug(tag: "CallViewcontroller", message: "onOutgoingCallRejected")
             self.showAlert(title: NSLocalizedString("Rejected", comment: ""), message: NSLocalizedString("Your outgoing call has been rejected by the other person.", comment: ""),okAction: { (_) in
+                PlivoManager.sharedInstance.hangUp()
                 self.dismiss(animated: true, completion: nil)
             })
         }
@@ -304,6 +305,7 @@ extension CallViewController : PlivoEndpointDelegate  {
         DispatchQueue.main.async {
             Logger.logDebug(tag: "CallViewcontroller", message: "onOutgoingCallInvalid")
             self.showAlert(title: NSLocalizedString("Invalid id", comment: ""), message: NSLocalizedString("You tried to call a wrong id/ Endpoint URI", comment: ""),okAction: { (_) in
+                PlivoManager.sharedInstance.hangUp()
                 self.dismiss(animated: true, completion: nil)
             })
         }
